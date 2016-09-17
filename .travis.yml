@@ -9,4 +9,4 @@ php:
 install:
   - composer install --no-dev --quite
 
-script: phpunit -c phpunit.xml
+script: phpunit -c phpunit.xml --coverage-text
