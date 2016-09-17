@@ -4,7 +4,7 @@ class Whovian
 {
 	protected $favoriteDoctor;
 
-	public function __construct(string $favoriteDoctor)
+	public function __construct($favoriteDoctor)
 	{
 		$this->favoriteDoctor = (string)$favoriteDoctor;
 	}
